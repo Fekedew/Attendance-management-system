@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Attendance-System</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="show">Show</string>
+    <string name="un_returned">Un returned</string>
+    <string name="borrow">Borrow</string>
+    <string name="add_new_book">Add new book</string>
+    <string name="book_name">Book name</string>
+    <string name="add_book">Add book</string>
+    <string name="student_name">Student Name</string>
+    <string name="returned">Returned</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+</resources>
