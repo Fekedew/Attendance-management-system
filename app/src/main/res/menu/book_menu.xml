@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:onClick="addBook"
+        android:orderInCategory="1"
+        android:title="Add Book"
+        app:showAsAction="ifRoom" />
+</menu>

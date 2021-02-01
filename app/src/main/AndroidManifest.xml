@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fekedew">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mil"
+        android:roundIcon="@mipmap/mil_c"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name="main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="main.Register"
+            android:label="Register"
+            android:parentActivityName="main.MainActivity" />
+        <activity android:name="main.AppBase" />
+        <activity
+            android:name="main.profile.ProfileActivity"
+            android:label="Student list"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.profile.StudentRegistration"
+            android:label="Student Registration"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.attendance.AttendanceActivity"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.attendance.AttendanceReport"
+            android:label="Attendance report"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.components.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.attendance.AllReport"
+            android:label="All Report"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.components.About"
+            android:label="About us"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.profile.EditStudentActivity"
+            android:label="Edit student information"
+            android:parentActivityName="main.profile.ProfileActivity" />
+        <activity
+            android:name="main.bookloan.BookActivity"
+            android:label="Borrowed book information"
+            android:parentActivityName="main.AppBase" />
+        <activity
+            android:name="main.bookloan.BorrowNew"
+            android:label="Borrow new book"
+            android:parentActivityName="main.bookloan.BookActivity" />
+        <activity
+            android:name="main.bookloan.BookAdd"
+            android:label="Add new book"
+            android:parentActivityName="main.bookloan.BookActivity" />
+        <activity
+            android:name="main.myClass.MyClassActivity"
+            android:label="Add new mark"
+            android:parentActivityName="main.bookloan.BookActivity" />
+        <activity android:name="main.ChangeUserName"
+            android:label="Change username and password"
+            android:parentActivityName="main.AppBase" />
+    </application>
+
+</manifest>

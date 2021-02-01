@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/reportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/totalPresent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Present" />
+
+    <TextView
+        android:id="@+id/totalAbsent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Absent" />
+
+    <TextView
+        android:id="@+id/totalPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Permission" />
+
+</LinearLayout>
